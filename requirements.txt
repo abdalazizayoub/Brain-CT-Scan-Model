@@ -1,6 +1,0 @@
-streamlit
-torch
-numpy
-torchvision
-PIL
-torch.nn.functional
