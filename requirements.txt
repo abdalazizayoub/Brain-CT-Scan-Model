@@ -1,6 +1,0 @@
-streamlit
-torch
-numpy
-torchvision
-pillow 
-torch.nn.functional
