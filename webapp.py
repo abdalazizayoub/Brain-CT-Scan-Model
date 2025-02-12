@@ -38,7 +38,7 @@ class MyCNN(nn.Module):
         return x
 
 
-model = torch.load("Model.pth", map_location=torch.device('cpu'))
+model = torch.load("Model.pth", map_location=torch.device('cpu'),weights_only=False)
 model.eval()
 
 t = torchvision.transforms.Compose([
