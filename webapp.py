@@ -8,7 +8,7 @@ from torch.nn.functional import softmax
 
 
 
-model = torch.load("resnet.pth", map_location=torch.device('cpu'),weights_only=False)
+model = torch.load("models/resnet.pth", map_location=torch.device('cpu'),weights_only=False)
 model.eval()
 
 t = torchvision.transforms.Compose([
